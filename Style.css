@@ -1,0 +1,59 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    color: #5c9be2; 
+}
+.header-tag{
+    padding-top: 10px;
+}
+.primary-menu ul{
+    text-align: right;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a {
+	display: block;
+	padding: 0 20px;
+	line-height: 55px;
+	text-decoration: none;
+}
+.banner{
+   background-image: url(https://images.unsplash.com/photo-1530022351670-4caa0efc0b4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
+    height:600px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   
+} 
+.banner-text h2{
+    padding: 180px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}  
+
+/* profile */
+.about {
+	padding-top: 30px;
+}
+img{
+    max-width: 100%;
+}
+.profile ul li {
+	list-style: none;
+}
+.about-section .style {
+	font-size: 22px;
+	font-style: revert;
+}
+
+/* footer-section */
+.footer{
+    background-color: #0062d3;
+}
+.footer p{
+    color: white;
+    margin-top: 15px;
+}
